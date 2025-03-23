@@ -49,8 +49,7 @@ export const initAnalytics = ({
         )
 
         if (event) {
-          event.waitUntil(promise)
-        }
+          event.waitUntil(promise)}
         {
           await promise
         }
